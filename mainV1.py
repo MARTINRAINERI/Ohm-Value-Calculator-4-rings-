@@ -122,10 +122,6 @@ right_btn.place(x = 1115, y= 430)
 #Interaction widgets
 
 
-### Main loop
-
-root.mainloop()
-
 
 ### Main functions (adapted for the GUI)
 table = [['none',0,0,0,20],['silver',0,0,0.01,10],['gold',0,0,0.1,5],['black',0,0,1,0],['brown',1,1,10,1],['red',2,2,100,2],['orange',3,3,1000,0],['yellow',4,4,10000,0],['green',5,5,100000,0.5],['blue',6,6,1000000,0.25],['purple',7,7,10000000,0.1],['grey',8,8,100000000,0.05],['white',9,9,1000000000,0]]
@@ -192,4 +188,7 @@ def ColourToValue(ring1,ring2,ring3,ring4):
     tolerance = str(fourth_digit)
     return(value,tolerance)
 
+### Main loop
+
+root.mainloop()
 
